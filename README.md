@@ -1,6 +1,6 @@
 # SOCKET_SIMPLE_PROGRAM
 #### The repository have data files for my server and client program in Python 3 for the deployment of a simple socket network.
-## INTODUCTION
+## INTRODUCTION
 In the domain of network programming one of the major protocol is Transmission Control Protocol. A simple implementation of TCP based connection is attempted with the help of Sockets.
 Sockets are the endpoints of a bidirectional, point-to-point communication channel. Given an internet connection, say between client(a browser) and the server(say Google.com), we will have two sockets. A Client Socket and a Server Socket.
 The data transmission take place only when a secure connection is established from both ends.
