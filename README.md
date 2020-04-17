@@ -23,3 +23,6 @@ The client side program is stored in simple_client.py above.
 - connection is established and recived data is deccoded back for use.
 
 All socket connections are closed once the data transmission is over.
+## OUTPUT SCREENSHOTS
+![](images/server.png)
+![](images/client.png)
