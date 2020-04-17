@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 11 19:44:40 2020
+
+@author: swapnil
+"""
+
+import socket as sk
+s=sk.socket()
+#host=sk.gethostname()
+host=input("ENTER HOST TO CONNECT : ")
+print("HOST : ",host)
+print("HOST IP : ",sk.gethostbyname(sk.gethostname()))
+port = 8085
+
+s.connect((host,port))
+print("Waiting for Server Message......")
+data=s.recv(1024)
+print("SERVER : ",data.decode())
+s.close()
